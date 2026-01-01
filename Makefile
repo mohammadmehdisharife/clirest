@@ -13,6 +13,9 @@ $(TARGET): clirest.c
 clean:
 	rm -f $(TARGET)
 
+install:
+	sudo mv $(TARGET) /bin/
+
 build: $(TARGET)
 
 rebuild: clean all
