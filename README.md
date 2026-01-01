@@ -1,2 +1,7 @@
 # clirest
-tiny http clinet for cli with quickjs
+tiny http clinet for cli with libcurl
+
+## build
+```
+make build
+```
