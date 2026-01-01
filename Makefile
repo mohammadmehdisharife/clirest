@@ -13,4 +13,6 @@ $(TARGET): clirest.c
 clean:
 	rm -f $(TARGET)
 
+build: $(TARGET)
+
 rebuild: clean all
